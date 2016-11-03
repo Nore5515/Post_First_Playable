@@ -1,0 +1,197 @@
+fileFormatVersion: 2
+guid: 7dbf5b1707940478c880db766ee5c91a
+timeCreated: 1476989615
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Peasant_House1_2
+    100004: Peasant_House2_1
+    100006: Peasant_House2_2
+    100008: Peasant_House3_1
+    100010: Peasant_House3_2
+    100012: Peasant_House_2:pCube1
+    100014: Peasant_House_2:pPlane1
+    100016: Peasant_House_3:HouseBase
+    100018: Peasant_House_3:Roof
+    100020: Peasant_House_3:RoofSupport1
+    100022: Peasant_House_3:RoofSupport2
+    100024: Peasant_House_3:RoofSupport3
+    100026: Peasant_House_3:RoofSupport4
+    100028: Peasant_House_3:RoofSupport5
+    100030: Peasant_House_3:RoofSupport6
+    100032: Peasant_House_3:RoofSupport7
+    100034: Peasant_House_3:RoofSupport8
+    100036: Peasant_House_3:RoofTop1
+    100038: Peasant_House_3:RoofTop2
+    100040: Peasant_House_3:RoofTop3
+    100042: Peasant_House_3:RoofTop4
+    100044: Rocks:Rock1_1
+    100046: Rocks:Rock2_1
+    100048: Rocks:Rock3_1
+    100050: Rocks:Rock4_1
+    100052: Rocks:Rock5_1
+    100054: Rocks:Rock6_1
+    100056: transform1
+    100058: transform10
+    100060: transform11
+    100062: transform12
+    100064: transform13
+    100066: transform14
+    100068: transform15
+    100070: transform16
+    100072: transform2
+    100074: transform3
+    100076: transform4
+    100078: transform5
+    100080: transform6
+    100082: transform7
+    100084: transform8
+    100086: transform9
+    100088: windmill:pCube10
+    100090: windmill:pCylinder3
+    400000: //RootNode
+    400002: Peasant_House1_2
+    400004: Peasant_House2_1
+    400006: Peasant_House2_2
+    400008: Peasant_House3_1
+    400010: Peasant_House3_2
+    400012: Peasant_House_2:pCube1
+    400014: Peasant_House_2:pPlane1
+    400016: Peasant_House_3:HouseBase
+    400018: Peasant_House_3:Roof
+    400020: Peasant_House_3:RoofSupport1
+    400022: Peasant_House_3:RoofSupport2
+    400024: Peasant_House_3:RoofSupport3
+    400026: Peasant_House_3:RoofSupport4
+    400028: Peasant_House_3:RoofSupport5
+    400030: Peasant_House_3:RoofSupport6
+    400032: Peasant_House_3:RoofSupport7
+    400034: Peasant_House_3:RoofSupport8
+    400036: Peasant_House_3:RoofTop1
+    400038: Peasant_House_3:RoofTop2
+    400040: Peasant_House_3:RoofTop3
+    400042: Peasant_House_3:RoofTop4
+    400044: Rocks:Rock1_1
+    400046: Rocks:Rock2_1
+    400048: Rocks:Rock3_1
+    400050: Rocks:Rock4_1
+    400052: Rocks:Rock5_1
+    400054: Rocks:Rock6_1
+    400056: transform1
+    400058: transform10
+    400060: transform11
+    400062: transform12
+    400064: transform13
+    400066: transform14
+    400068: transform15
+    400070: transform16
+    400072: transform2
+    400074: transform3
+    400076: transform4
+    400078: transform5
+    400080: transform6
+    400082: transform7
+    400084: transform8
+    400086: transform9
+    400088: windmill:pCube10
+    400090: windmill:pCylinder3
+    2300000: Peasant_House1_2
+    2300002: Peasant_House2_2
+    2300004: Peasant_House3_2
+    2300006: Rocks:Rock1_1
+    2300008: Rocks:Rock2_1
+    2300010: Rocks:Rock3_1
+    2300012: Rocks:Rock4_1
+    2300014: Rocks:Rock5_1
+    2300016: Rocks:Rock6_1
+    2300018: windmill:pCube10
+    2300020: windmill:pCylinder3
+    3300000: Peasant_House1_2
+    3300002: Peasant_House2_2
+    3300004: Peasant_House3_2
+    3300006: Rocks:Rock1_1
+    3300008: Rocks:Rock2_1
+    3300010: Rocks:Rock3_1
+    3300012: Rocks:Rock4_1
+    3300014: Rocks:Rock5_1
+    3300016: Rocks:Rock6_1
+    3300018: windmill:pCube10
+    3300020: windmill:pCylinder3
+    4300000: Peasant_House1_2
+    4300002: Peasant_House2_2
+    4300004: Peasant_House3_2
+    4300006: Rocks:Rock1_1
+    4300008: Rocks:Rock2_1
+    4300010: Rocks:Rock3_1
+    4300012: Rocks:Rock4_1
+    4300014: Rocks:Rock5_1
+    4300016: Rocks:Rock6_1
+    4300018: windmill:pCylinder3
+    4300020: windmill:pCube10
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

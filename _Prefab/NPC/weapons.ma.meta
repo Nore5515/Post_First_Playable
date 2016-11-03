@@ -1,0 +1,134 @@
+fileFormatVersion: 2
+guid: 0402a7e7f7f6d4d38a0680f3dce273b9
+timeCreated: 1474052045
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Arrow
+    100002: Bow
+    100004: Broadsword
+    100006: Hammer
+    100008: Knight_Shield
+    100010: Pitchfork
+    100012: Plank_Shield
+    100014: Round_Shield
+    100016: Shortsword
+    100018: Spear
+    100020: Staff
+    100022: War_axe
+    100024: //RootNode
+    400000: Arrow
+    400002: Bow
+    400004: Broadsword
+    400006: Hammer
+    400008: Knight_Shield
+    400010: Pitchfork
+    400012: Plank_Shield
+    400014: Round_Shield
+    400016: Shortsword
+    400018: Spear
+    400020: Staff
+    400022: War_axe
+    400024: //RootNode
+    2300000: Arrow
+    2300002: Bow
+    2300004: Broadsword
+    2300006: Hammer
+    2300008: Knight_Shield
+    2300010: Pitchfork
+    2300012: Plank_Shield
+    2300014: Round_Shield
+    2300016: Shortsword
+    2300018: Spear
+    2300020: Staff
+    2300022: War_axe
+    3300000: Arrow
+    3300002: Bow
+    3300004: Broadsword
+    3300006: Hammer
+    3300008: Knight_Shield
+    3300010: Pitchfork
+    3300012: Plank_Shield
+    3300014: Round_Shield
+    3300016: Shortsword
+    3300018: Spear
+    3300020: Staff
+    3300022: War_axe
+    4300000: Hammer
+    4300002: Bow
+    4300004: Arrow
+    4300006: Broadsword
+    4300008: Staff
+    4300010: Spear
+    4300012: Round_Shield
+    4300014: Shortsword
+    4300016: Plank_Shield
+    4300018: Knight_Shield
+    4300020: Pitchfork
+    4300022: War_axe
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
