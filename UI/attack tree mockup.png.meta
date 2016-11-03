@@ -1,0 +1,155 @@
+fileFormatVersion: 2
+guid: 77e97bf3e6454482fb18f67a84edb333
+timeCreated: 1476385770
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: attack tree mockup_0
+    21300002: attack tree mockup_1
+    21300004: attack tree mockup_2
+    21300006: attack tree mockup_3
+    21300008: attack tree mockup_4
+    21300010: attack tree mockup_5
+    21300012: attack tree mockup_6
+    21300014: attack tree mockup_7
+    21300016: attack tree mockup_8
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: attack tree mockup_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 899
+        width: 297
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attack tree mockup_1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 768
+        width: 589
+        height: 103
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attack tree mockup_2
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 764
+        width: 587
+        height: 107
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attack tree mockup_3
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 762
+        width: 588
+        height: 111
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attack tree mockup_4
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 375
+        width: 104
+        height: 106
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attack tree mockup_5
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 124
+        width: 412
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attack tree mockup_6
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 30
+        width: 412
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attack tree mockup_7
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 420
+        width: 662
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attack tree mockup_8
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 307
+        width: 16
+        height: 242
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
