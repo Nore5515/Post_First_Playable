@@ -32,7 +32,7 @@ public class levelingMenu : MonoBehaviour {
 	public expSystem xpSys;
 	public tankSkillMenu tankSkills;
 	public agilitySkillMenu agilitySkills;
-	//public EnemyHealth playerDamage;
+	public EnemyHealth playerDamage;
 
 	// Use this for initialization
 	void Start () {
@@ -41,11 +41,11 @@ public class levelingMenu : MonoBehaviour {
 		tankSkills.tankMenu.SetActive (false);
 		agilitySkills.agilityMenu.SetActive (false);
 
-		//xpSys = GetComponent<expSystem>();
+		xpSys = GetComponent<expSystem>();
 		tankSkills = GetComponent<tankSkillMenu>();
 		agilitySkills = GetComponent<agilitySkillMenu>();
 
-		//playerDamage = GameObject.FindGameObjectWithTag("attack").GetComponent<EnemyHealth>();
+		playerDamage = GameObject.FindGameObjectWithTag("attack").GetComponent<EnemyHealth>();
 		
 	}
 	
@@ -97,17 +97,13 @@ public class levelingMenu : MonoBehaviour {
 
 	public void Skill1()
 	{
-		Debug.Log ("u clikc");
 		if (xpSys.skillPoint > 0 && attack == 1)
 		{
 			attack = 2;
 			Debug.Log(attack);
 
-			breath += 1;
-			Debug.Log(breath);
-
-			//playerDamage.damage = 20;
-			//Debug.Log(playerDamage.damage);
+			playerDamage.damage = 20.0f;
+			Debug.Log(playerDamage.damage);
 
 			xpSys.skillPoint -= 1;
 			Debug.Log(xpSys.skillPoint);
@@ -124,11 +120,11 @@ public class levelingMenu : MonoBehaviour {
 				attack = 3;
 				Debug.Log(attack);
 
-				breath += 1;
+				breath = 1;
 				Debug.Log(breath);
 
-			//	playerDamage.damage = 30;
-			//	Debug.Log(playerDamage.damage);
+				playerDamage.damage = 30.0f;
+				Debug.Log(playerDamage.damage);
 
 				xpSys.skillPoint -= 1;
 				Debug.Log(xpSys.skillPoint);
@@ -146,11 +142,8 @@ public class levelingMenu : MonoBehaviour {
 				attack = 4;
 				Debug.Log(attack);
 
-				breath += 1;
-				Debug.Log(breath);
-
-				//playerDamage.damage = 40;
-				//Debug.Log(playerDamage.damage);
+				playerDamage.damage = 40.0f;
+				Debug.Log(playerDamage.damage);
 
 				xpSys.skillPoint -= 1;
 				Debug.Log(xpSys.skillPoint);
@@ -162,14 +155,17 @@ public class levelingMenu : MonoBehaviour {
 	{
 		if (xpSys.skillPoint >= 1)
 		{
-			if (attack >= 2)
+			if (attack == 2)
 			{
-				breath += 1;
-				Debug.Log(breath);
+				attack = 5;
+				Debug.Log(attack);
+				
+				playerDamage.damage = 50.0f;
+				Debug.Log(playerDamage.damage);
 
 				xpSys.skillPoint -= 1;
 				Debug.Log(xpSys.skillPoint);
-				Debug.Log ("Attack = 4, fire unlocked");
+				Debug.Log ("Attack = 5, damage increased!");
 			}
 		}
 	}
@@ -178,9 +174,9 @@ public class levelingMenu : MonoBehaviour {
 	{
 		if (xpSys.skillPoint >= 1)
 		{
-			if (attack >= 2)
+			if (attack == 5)
 			{
-				meleeElemental += 1;
+				meleeElemental = 1;
 				Debug.Log(meleeElemental);
 
 				xpSys.skillPoint -= 1;

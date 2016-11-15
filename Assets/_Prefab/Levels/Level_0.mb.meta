@@ -1,0 +1,198 @@
+fileFormatVersion: 2
+guid: b32a67be7892d45749eab9219ac7430c
+timeCreated: 1479239435
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Fence
+    100002: Fence1
+    100004: Fence10
+    100006: Fence11
+    100008: Fence12
+    100010: Fence14
+    100012: Fence15
+    100014: Fence16
+    100016: Fence2
+    100018: Fence3
+    100020: Fence4
+    100022: Fence5
+    100024: Fence6
+    100026: Fence7
+    100028: Fence8
+    100030: Fence9
+    100032: //RootNode
+    100034: Peasant_House
+    100036: Rock
+    100038: Rocks1:Rock3
+    100040: Rocks1:Rock4
+    100042: Rocks1:Rock6
+    100044: Rocks:Rock4
+    100046: Rocks:Rock6
+    100048: Tree_1
+    100050: Tree_2
+    100052: well:pCube13
+    400000: Fence
+    400002: Fence1
+    400004: Fence10
+    400006: Fence11
+    400008: Fence12
+    400010: Fence14
+    400012: Fence15
+    400014: Fence16
+    400016: Fence2
+    400018: Fence3
+    400020: Fence4
+    400022: Fence5
+    400024: Fence6
+    400026: Fence7
+    400028: Fence8
+    400030: Fence9
+    400032: //RootNode
+    400034: Peasant_House
+    400036: Rock
+    400038: Rocks1:Rock3
+    400040: Rocks1:Rock4
+    400042: Rocks1:Rock6
+    400044: Rocks:Rock4
+    400046: Rocks:Rock6
+    400048: Tree_1
+    400050: Tree_2
+    400052: well:pCube13
+    2300000: Fence1
+    2300002: Fence10
+    2300004: Fence11
+    2300006: Fence12
+    2300008: Fence14
+    2300010: Fence15
+    2300012: Fence16
+    2300014: Fence2
+    2300016: Fence3
+    2300018: Fence4
+    2300020: Fence5
+    2300022: Fence6
+    2300024: Fence7
+    2300026: Fence8
+    2300028: Fence9
+    2300030: Peasant_House
+    2300032: Rocks1:Rock3
+    2300034: Rocks1:Rock4
+    2300036: Rocks1:Rock6
+    2300038: Rocks:Rock4
+    2300040: Rocks:Rock6
+    2300042: Tree_1
+    2300044: Tree_2
+    2300046: well:pCube13
+    3300000: Fence1
+    3300002: Fence10
+    3300004: Fence11
+    3300006: Fence12
+    3300008: Fence14
+    3300010: Fence15
+    3300012: Fence16
+    3300014: Fence2
+    3300016: Fence3
+    3300018: Fence4
+    3300020: Fence5
+    3300022: Fence6
+    3300024: Fence7
+    3300026: Fence8
+    3300028: Fence9
+    3300030: Peasant_House
+    3300032: Rocks1:Rock3
+    3300034: Rocks1:Rock4
+    3300036: Rocks1:Rock6
+    3300038: Rocks:Rock4
+    3300040: Rocks:Rock6
+    3300042: Tree_1
+    3300044: Tree_2
+    3300046: well:pCube13
+    4300000: Rocks1:Rock6
+    4300002: Rocks1:Rock4
+    4300004: Rocks1:Rock3
+    4300006: Rocks:Rock6
+    4300008: Rocks:Rock4
+    4300010: Peasant_House
+    4300012: Fence16
+    4300014: Fence15
+    4300016: Fence14
+    4300018: Fence12
+    4300020: Fence10
+    4300022: Fence1
+    4300024: Fence2
+    4300026: Fence3
+    4300028: Fence4
+    4300030: Fence5
+    4300032: Fence6
+    4300034: Fence7
+    4300036: Fence8
+    4300038: Fence9
+    4300040: Fence11
+    4300042: well:pCube13
+    4300044: Tree_2
+    4300046: Tree_1
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
