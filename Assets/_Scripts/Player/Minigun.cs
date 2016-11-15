@@ -56,6 +56,6 @@ public class Minigun : MonoBehaviour {
 					buffer++;
 				}
 			}
-		}`
+		}
 	}
 }

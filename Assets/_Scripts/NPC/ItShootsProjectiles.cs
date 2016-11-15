@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class ItShootsProjectiles : MonoBehaviour {
-	FPSInput ayylmao;
+	DragonController dragon;
 	ItShootsProjectiles tooclose;
 	ItShootsProjectiles shootsArrows;
 	public GameObject arrowPrefab;
@@ -20,7 +20,7 @@ public class ItShootsProjectiles : MonoBehaviour {
 	// Use this for initialization
 	void Start() {
 		
-		ayylmao = GameObject.FindGameObjectWithTag("Player").GetComponent<FPSInput>();
+		dragon = GameObject.FindGameObjectWithTag("Player").GetComponent<DragonController>();
 		tooclose = GameObject.FindGameObjectWithTag("tooclose").GetComponentInChildren<ItShootsProjectiles> ();
 		//Debug.Log (tooclose);
 		shootsArrows = GameObject.FindGameObjectWithTag("shootsArrows").GetComponentInChildren<ItShootsProjectiles> ();
@@ -29,7 +29,7 @@ public class ItShootsProjectiles : MonoBehaviour {
 	void Update() {
 		
 		if (isCollide () == true) {
-			this.GetComponent<Rigidbody> ().transform.rotation = Quaternion.Slerp (this.GetComponent<Rigidbody> ().transform.rotation, Quaternion.LookRotation (ayylmao.transform.position - this.GetComponent<Rigidbody> ().transform.position), rotationSpeed * Time.deltaTime);
+			this.GetComponent<Rigidbody> ().transform.rotation = Quaternion.Slerp (this.GetComponent<Rigidbody> ().transform.rotation, Quaternion.LookRotation (dragon.transform.position - this.GetComponent<Rigidbody> ().transform.position), rotationSpeed * Time.deltaTime);
 			
 			this.GetComponent<Rigidbody> ().transform.position -= this.GetComponent<Rigidbody> ().transform.forward * fastness * Time.deltaTime;
 		} 
