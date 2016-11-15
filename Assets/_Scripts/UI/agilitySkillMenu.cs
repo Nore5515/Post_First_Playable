@@ -31,6 +31,7 @@ public class agilitySkillMenu : MonoBehaviour {
 	public expSystem xpSys;
 	public tankSkillMenu tankSkills;
 	public levelingMenu attackMenu;
+	public DragonController playerMovement;
 	
 	// Use this for initialization
 	void Start () {
@@ -42,6 +43,8 @@ public class agilitySkillMenu : MonoBehaviour {
 		//xpSys = GetComponent<expSystem>();
 		tankSkills = GetComponent<tankSkillMenu>();
 		attackMenu = GetComponent<levelingMenu>();
+
+		playerMovement = GameObject.FindGameObjectWithTag("Player").GetComponent<DragonController>();
 		
 	}
 	
@@ -87,61 +90,85 @@ public class agilitySkillMenu : MonoBehaviour {
 	
 	public void Skill1()
 	{
-		//if (xpSys.skillPoint >= 1)
-		//{
+		if (xpSys.skillPoint >= 1)
+		{
 			agility = 2;
 			Debug.Log(agility);
-		//}
+
+			playerMovement.maxSpeed = 200f;
+			Debug.Log(playerMovement.maxSpeed);
+
+			xpSys.skillPoint -= 1;
+			Debug.Log(xpSys.skillPoint);
+		}
 	}
 	
 	public void Skill2()
 	{
-		/*if (xpSys.skillPoint >= 1)
-		{*/
-			movementSpeed = 2;
-			Debug.Log(movementSpeed);
+		if (xpSys.skillPoint >= 1)
+		{
+			if (agility == 2)
+			{
+				movementSpeed = 3;
+				Debug.Log(movementSpeed);
 
-		xpSys.skillPoint -= 1;
-		Debug.Log(xpSys.skillPoint);
-		//}
+				playerMovement.maxSpeed = 250f;
+				Debug.Log(playerMovement.maxSpeed);
+
+				xpSys.skillPoint -= 1;
+				Debug.Log(xpSys.skillPoint);
+			}
+		}
 	}
 	
 	public void Skill3()
 	{
-		/*if (xpSys.skillPoint >= 1)
-		{*/
-			maneuvers = 1;
-			Debug.Log(maneuvers);
-		xpSys.skillPoint -= 1;
-		Debug.Log(xpSys.skillPoint);
-		//}
+		if (xpSys.skillPoint >= 1)
+		{
+			if (agility == 3)
+			{
+				movementSpeed = 4;
+				Debug.Log(movementSpeed);
+				
+				playerMovement.maxSpeed = 300f;
+				Debug.Log(playerMovement.maxSpeed);
+				
+				xpSys.skillPoint -= 1;
+				Debug.Log(xpSys.skillPoint);
+			}
+		}
 	}
 	
 	public void Skill4()
 	{
-		/*if (xpSys.skillPoint >= 1)
+		if (xpSys.skillPoint >= 1)
 		{
-			if (agility == 2)
-			{*/
-				wings = true;
-				Debug.Log(wings);
-		xpSys.skillPoint -= 1;
-		Debug.Log(xpSys.skillPoint);
-		//}
-		//}
+			if (agility == 4)
+			{
+				movementSpeed = 5;
+				Debug.Log(movementSpeed);
+				
+				playerMovement.maxSpeed = 350f;
+				Debug.Log(playerMovement.maxSpeed);
+				
+				xpSys.skillPoint -= 1;
+				Debug.Log(xpSys.skillPoint);
+			}
+		}
 	}
 	
 	public void Skill5()
 	{
-		/*if (xpSys.skillPoint >= 1)
+		if (xpSys.skillPoint >= 1)
 		{
-			if (agility == 2)
-			{*/
+			if (agility == 5)
+			{
 				timeInAir = 1;
 				Debug.Log(timeInAir);
-		xpSys.skillPoint -= 1;
-		Debug.Log(xpSys.skillPoint);
-		/*}
-		}*/
+
+				xpSys.skillPoint -= 1;
+				Debug.Log(xpSys.skillPoint);
+			}
+		}
 	}
 }
