@@ -31,12 +31,12 @@ public class buildingN : MonoBehaviour {
 		if (other.gameObject.CompareTag ("Player")) {
 			this.iscollide = true;
 		} 
-		if (other.gameObject.CompareTag ("PlayerArrow")) {
-			if (counter == 100) {
-				this.arrowCollides = true;
-			}
-			counter++;
-		}
+		//if (other.gameObject.CompareTag ("PlayerArrow")) {
+			//if (counter == 100) {
+			//	this.arrowCollides = true;
+			//}
+			//counter++;
+		//}
 	}
 	void OnTriggerExit(Collider other){
 		if (other.gameObject.CompareTag ("Player")) {
