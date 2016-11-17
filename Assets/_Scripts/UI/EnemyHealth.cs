@@ -65,8 +65,8 @@ public class EnemyHealth : MonoBehaviour {
 	{
 		//Debug.Log("is being killed?: "+takenDamage);
 		float isItfest = ayyPlay.GetPlayerFastness();
-		if (takenDamage && isItfest >= 1.1f) {
-			//Debug.Log ("ow I'm hit!");
+		if (takenDamage /*&& isItfest >= 1.1f*/) {
+			Debug.Log ("ow I'm hit!");
 			health = health - damage;
 			takenDamage = false;
 		}
