@@ -29,8 +29,8 @@ public class EnemyHealth : MonoBehaviour {
 		// Setting up the references.
 		player = GameObject.FindGameObjectWithTag ("Player");
 		ayyPlay = GameObject.FindGameObjectWithTag ("Player").GetComponent<DragonController>();
-		enemyHealth.value = maxHealth;
-		
+		if (enemyHealth != null)
+			enemyHealth.value = maxHealth;
 	}
 	
 	
