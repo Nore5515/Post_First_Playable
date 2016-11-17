@@ -1,3 +1,26 @@
 Base path: /Applications/Unity/Unity.app/Contents
 Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-2044277504
 Cmd: getPlatforms
+Cmd: preprocess
+  insize=4235 outsize=1085 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (80): 'unity_ObjectToWorld' : undeclared identifier\nCompiling Vertex program with WATER_REFRACTIVE
+  api=0 type=0 insize=3453 outsize=0 kw=WATER_REFRACTIVE pd= ok=0
+Cmd: preprocess
+  insize=12915 outsize=2646 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (136): 'unity_ObjectToWorld' : undeclared identifier\nCompiling Vertex program with WATER_REFLECTIVE WATER_VERTEX_DISPLACEMENT_ON WATER_EDGEBLEND_ON
+  error: 2 plat 0 at (241): 'unity_ObjectToWorld' : undeclared identifier\nCompiling Vertex program with WATER_REFLECTIVE WATER_VERTEX_DISPLACEMENT_ON WATER_EDGEBLEND_ON
+  error: 2 plat 0 at (327): 'unity_ObjectToWorld' : undeclared identifier\nCompiling Vertex program with WATER_REFLECTIVE WATER_VERTEX_DISPLACEMENT_ON WATER_EDGEBLEND_ON
+  api=0 type=0 insize=10285 outsize=0 kw=WATER_REFLECTIVE WATER_VERTEX_DISPLACEMENT_ON WATER_EDGEBLEND_ON pd= ok=0
+Cmd: preprocess
+  insize=12063 outsize=2525 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (130): 'unity_ObjectToWorld' : undeclared identifier\nCompiling Vertex program with WATER_REFLECTIVE WATER_VERTEX_DISPLACEMENT_ON WATER_EDGEBLEND_ON
+  error: 2 plat 0 at (229): 'unity_ObjectToWorld' : undeclared identifier\nCompiling Vertex program with WATER_REFLECTIVE WATER_VERTEX_DISPLACEMENT_ON WATER_EDGEBLEND_ON
+  error: 2 plat 0 at (314): 'unity_ObjectToWorld' : undeclared identifier\nCompiling Vertex program with WATER_REFLECTIVE WATER_VERTEX_DISPLACEMENT_ON WATER_EDGEBLEND_ON
+  api=0 type=0 insize=9556 outsize=0 kw=WATER_REFLECTIVE WATER_VERTEX_DISPLACEMENT_ON WATER_EDGEBLEND_ON pd= ok=0
+Cmd: compileSnippet
+  api=0 type=0 insize=1482 outsize=509 kw=SOFTPARTICLES_OFF pd= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1482 outsize=6 kw=SOFTPARTICLES_OFF pd= ok=1

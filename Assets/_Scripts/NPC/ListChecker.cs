@@ -15,7 +15,7 @@ public class ListChecker : MonoBehaviour {
 		Debug.Log ("number of buildings: "+buildinglister.BuildingNum ());
 		Debug.Log ("number of NPC's: " + npclister.totalListed ());
 		if (npclister.totalListed () == 0 && buildinglister.BuildingNum () == 0) {
-			Application.LoadLevel ("pls");
+			Application.LoadLevel ("Hub");
 		}
 	}
 }

@@ -116,7 +116,7 @@ public class PauseMenu : MonoBehaviour {
 	{
 		//MainMenuUI.SetActive (true);
 
-		Application.LoadLevel ("pls");
+		Application.LoadLevel ("Hub");
 	}
 
 	public void Exit ()
