@@ -3,7 +3,7 @@ using System.Collections;
 
 public class expSystem : MonoBehaviour {
 	
-	public float skillPoint = 1;
+	public float skillPoint = 0;
 	public float level = 1;
 
 	bool levelUp = false;
@@ -15,6 +15,7 @@ public class expSystem : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
 		if (levelUp == true)
 		{
 			skillPoint++;

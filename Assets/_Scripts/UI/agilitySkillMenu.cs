@@ -120,7 +120,7 @@ public class agilitySkillMenu : MonoBehaviour {
 				movementSpeed = 3;
 				Debug.Log(movementSpeed);
 
-				playerMovement.maxSpeed = 250f;
+				playerMovement.maxSpeed = 300f;
 				Debug.Log(playerMovement.maxSpeed);
 
 				xpSys.skillPoint -= 1;
@@ -138,7 +138,7 @@ public class agilitySkillMenu : MonoBehaviour {
 				movementSpeed = 4;
 				Debug.Log(movementSpeed);
 				
-				playerMovement.maxSpeed = 300f;
+				playerMovement.maxSpeed = 400f;
 				Debug.Log(playerMovement.maxSpeed);
 				
 				xpSys.skillPoint -= 1;
@@ -156,7 +156,7 @@ public class agilitySkillMenu : MonoBehaviour {
 				movementSpeed = 5;
 				Debug.Log(movementSpeed);
 				
-				playerMovement.maxSpeed = 350f;
+				playerMovement.maxSpeed = 500f;
 				Debug.Log(playerMovement.maxSpeed);
 				
 				xpSys.skillPoint -= 1;

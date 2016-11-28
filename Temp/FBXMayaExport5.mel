@@ -1,0 +1,23 @@
+print "Starting maya loading and fbx conversion \n";
+	
+if (`file -q -exists "/Users/s430851/Desktop/Post_First_Playable/Assets/_Prefab/Levels/Hub World (2).mb"`)
+{		
+	file -o "/Users/s430851/Desktop/Post_First_Playable/Assets/_Prefab/Levels/Hub World (2).mb";
+	FBXExportEmbeddedTextures -v false;
+	// FBXExportHardEdges -v true;
+	FBXExportApplyConstantKeyReducer -v false;
+	FBXExportShowUI -v false;
+
+	print "Before fbx export\n";
+	FBXExport -f "/Users/s430851/Desktop/Post_First_Playable/Temp/ExportedFBXFile.fbx";
+	print "after fbx export\n";
+}
+else
+	print "Could not open Maya file.";
+
+
+system ("rm \"/Users/s430851/Desktop/Post_First_Playable/Temp/CommandPipe\"");
+
+$donepipeKill = `fopen "/Users/s430851/Desktop/Post_First_Playable/Temp/SyncPipeKill" "w"`;
+fwrite $donepipeKill "Done";
+fclose $donepipeKill;
