@@ -17,6 +17,7 @@ public class PauseMenu : MonoBehaviour {
 
 	//public static List<Game> savedGames = new List<Game>();
 
+
 	// Use this for initialization
 	void Start () {
 
@@ -24,6 +25,11 @@ public class PauseMenu : MonoBehaviour {
 
 		//OptionsUI.SetActive (false);
 		//MainMenuUI.SetActive (false);
+
+		PauseUI = GameObject.Find ("PauseMenu");
+		OptionsUI = GameObject.Find ("OptionsUI");
+		MainMenuUI = GameObject.Find ("MainMenuUI");
+
 
 		attackMenu = GetComponent<levelingMenu>();
 		attackMenu.spMenu = false;

@@ -36,6 +36,10 @@ public class agilitySkillMenu : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		
+		tankSkills = GameObject.Find ("Main Camera").GetComponent<tankSkillMenu>();
+		attackMenu = GameObject.Find ("Main Camera").GetComponent<levelingMenu>();
+		agilityMenu = GameObject.Find ("UI_Levelling").transform.FindChild("AgilityTree").gameObject;
+		
 		attackMenu.attackSkillMenu.SetActive (false);
 		tankSkills.tankMenu.SetActive (false);
 		agilityMenu.SetActive (false);
@@ -45,7 +49,11 @@ public class agilitySkillMenu : MonoBehaviour {
 		attackMenu = GetComponent<levelingMenu>();
 
 		playerMovement = GameObject.FindGameObjectWithTag("Player").GetComponent<DragonController>();
-		
+
+		agilityMenu = GameObject.Find ("UI_Levelling").transform.FindChild ("AgilityTree").gameObject;
+		Debug.Log ("next thing is agility menu");
+		Debug.Log (agilityMenu.ToString ());
+
 	}
 	
 	// Update is called once per frame

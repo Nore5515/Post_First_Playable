@@ -36,7 +36,11 @@ public class levelingMenu : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		
+
+		tankSkills = GameObject.Find ("Main Camera").GetComponent<tankSkillMenu> ();
+		attackSkillMenu = GameObject.Find ("UI_Levelling").transform.FindChild("AttackTree").gameObject;
+		agilitySkills = GameObject.Find ("Main Camera").GetComponent<agilitySkillMenu> ();
+
 		attackSkillMenu.SetActive (false);
 		tankSkills.tankMenu.SetActive (false);
 		agilitySkills.agilityMenu.SetActive (false);
@@ -46,7 +50,9 @@ public class levelingMenu : MonoBehaviour {
 		agilitySkills = GetComponent<agilitySkillMenu>();
 
 		playerDamage = GameObject.FindGameObjectWithTag("attack").GetComponent<EnemyHealth>();
-		
+
+		attackSkillMenu = GameObject.Find ("AttackTree");
+
 	}
 	
 	// Update is called once per frame
