@@ -45,6 +45,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\BreathType.cs" />
      <Compile Include="Assets\_Prefab\_PlayerAssets\DragonController.cs" />
      <Compile Include="Assets\_Prefab\_PlayerAssets\DragonFuelPickup.cs" />
      <Compile Include="Assets\_Prefab\_PlayerAssets\DragonMouseLook.cs" />
