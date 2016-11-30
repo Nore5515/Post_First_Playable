@@ -1,0 +1,13 @@
+/Users/s106020/Desktop/Post_First_Playable/Temp/bin/Debug/UnityEngine.dll
+/Users/s106020/Desktop/Post_First_Playable/Temp/bin/Debug/UnityEditor.dll
+/Users/s106020/Desktop/Post_First_Playable/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/s106020/Desktop/Post_First_Playable/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/s106020/Desktop/Post_First_Playable/Temp/bin/Debug/Mono.Cecil.dll
+/Users/s106020/Desktop/Post_First_Playable/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/s106020/Desktop/Post_First_Playable/Temp/bin/Debug/Unity.DataContract.dll
+/Users/s106020/Desktop/Post_First_Playable/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/s106020/Desktop/Post_First_Playable/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/s106020/Desktop/Post_First_Playable/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/s106020/Desktop/Post_First_Playable/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/s106020/Desktop/Post_First_Playable/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/s106020/Desktop/Post_First_Playable/Temp/bin/Debug/Mono.Cecil.Mdb.dll

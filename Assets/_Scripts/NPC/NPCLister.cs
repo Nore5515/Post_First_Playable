@@ -1,16 +1,18 @@
-﻿using UnityEngine;
+﻿
+using UnityEngine;
 using System.Collections.Generic;
 using System.Collections;
 
 public class NPCLister : MonoBehaviour {
-	DragonController Player;
+	Rigidbody Player;
 	BuildingLister buildinglister;
 	public ArrayList runawayList;
 	public ArrayList AttackList;
 	public ArrayList totalList;
+	Vector3 currentPlayerposXZ;
 	// Use this for initialization
 	void Start () {
-		Player = GameObject.FindGameObjectWithTag("Player").GetComponent<DragonController>();
+		Player = GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody>();
 		buildinglister = GameObject.FindGameObjectWithTag("Blister").GetComponent<BuildingLister> ();
 		if (runawayList == null)
 			runawayList = new ArrayList ();
@@ -19,6 +21,11 @@ public class NPCLister : MonoBehaviour {
 		if (totalList == null)
 			totalList = new ArrayList ();
 	
+	}
+
+	void Update(){
+		currentPlayerposXZ = new Vector3 (Player.transform.position.x, 0.0f, Player.transform.position.z);
+
 	}
 	public void AddRun(GameObject n){
 		if (runawayList == null)
@@ -52,7 +59,7 @@ public class NPCLister : MonoBehaviour {
 	public void NPC_FightOrFlight(GameObject NPC, bool runAt, float fastness, float rotationSpeed){
 		NPC.GetComponent<Rigidbody> ().transform.rotation = Quaternion.Slerp (
 			NPC.GetComponent<Rigidbody> ().transform.rotation,
-			Quaternion.LookRotation (Player.transform.position - NPC.GetComponent<Rigidbody> ().transform.position), 
+			Quaternion.LookRotation ( - NPC.GetComponent<Rigidbody> ().transform.position), 
 			rotationSpeed * Time.deltaTime);
 		if (runAt == true)
 			NPC.GetComponent<Rigidbody> ().transform.position += NPC.GetComponent<Rigidbody> ().transform.forward * fastness * Time.deltaTime;

@@ -9,7 +9,7 @@ public class Attack : MonoBehaviour {
 	private bool iscollide = false;
 	private bool relativeCloseness = false;
 	//private bool istooclose = false;
-	DragonController ayylmao;
+	Rigidbody Player;
 	NPCLister npclister;
 	EnemyHealth thishealth;
 	//how fast to move
@@ -31,10 +31,12 @@ public class Attack : MonoBehaviour {
 	private double varX;
 	private double varY;
 	private double varZ;
+
+	Vector3 currentPlayerPosXZ;
 	
 	// Use this for initialization
 	void Start() {
-		ayylmao = GameObject.FindGameObjectWithTag("Player").GetComponent<DragonController>();
+		Player = GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody>();
 		thishealth = this.GetComponent<EnemyHealth>();
 		currentfastness = origfastness;
 		currentRotSped = origrotationSpeed;
@@ -43,9 +45,10 @@ public class Attack : MonoBehaviour {
 	}
 	
 	void Update() {
+		currentPlayerPosXZ = new Vector3 (Player.transform.position.x, 0.0f, Player.transform.position.z);
 		TheDistancefromPlayer ();
 		//Debug.Log (relativeCloseness);
-		if (ayylmao == null) {
+		if (Player == null) {
 			idleMove();
 		}
 		if (iscollide == true) {
@@ -67,6 +70,7 @@ public class Attack : MonoBehaviour {
 		}
 	}
 	void TheDistancefromPlayer(){
+
 		float dist = Vector3.Distance (GameObject.FindGameObjectWithTag ("Player").transform.position, this.transform.position);
 		if (dist < 35.0f) {
 			iscollide = true;
@@ -95,7 +99,7 @@ public class Attack : MonoBehaviour {
 		currentRotSped = sped;
 	}
 	void MoveTowards(){
-		this.GetComponent<Rigidbody> ().transform.rotation = Quaternion.Slerp (this.GetComponent<Rigidbody> ().transform.rotation, Quaternion.LookRotation (ayylmao.transform.position - this.GetComponent<Rigidbody> ().transform.position), currentRotSped * Time.deltaTime);
+		this.GetComponent<Rigidbody> ().transform.rotation = Quaternion.Slerp (this.GetComponent<Rigidbody> ().transform.rotation, Quaternion.LookRotation (currentPlayerPosXZ - this.GetComponent<Rigidbody> ().transform.position), currentRotSped * Time.deltaTime);
 		
 		this.GetComponent<Rigidbody> ().transform.position += this.GetComponent<Rigidbody> ().transform.forward * currentfastness * Time.deltaTime;
 	}
@@ -107,7 +111,7 @@ public class Attack : MonoBehaviour {
 		TheDistancefromPlayer ();
 		float tempFast = this.getFast ();
 		this.setFast (0.0f);
-		this.GetComponent<Rigidbody> ().transform.rotation = Quaternion.Slerp (this.GetComponent<Rigidbody> ().transform.rotation, Quaternion.LookRotation (ayylmao.transform.position - this.GetComponent<Rigidbody> ().transform.position), currentRotSped * Time.deltaTime);
+		this.GetComponent<Rigidbody> ().transform.rotation = Quaternion.Slerp (this.GetComponent<Rigidbody> ().transform.rotation, Quaternion.LookRotation (currentPlayerPosXZ - this.GetComponent<Rigidbody> ().transform.position), currentRotSped * Time.deltaTime);
 		this.GetComponent<Rigidbody> ().transform.position -= this.GetComponent<Rigidbody> ().transform.right*-1* faceofffastness * Time.deltaTime;
 		StartCoroutine (DelayforRA (3.0f));
 		//StopCoroutine (DelayforRA(0.0f));
