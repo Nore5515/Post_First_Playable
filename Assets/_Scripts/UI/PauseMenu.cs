@@ -26,7 +26,7 @@ public class PauseMenu : MonoBehaviour {
 		//OptionsUI.SetActive (false);
 		//MainMenuUI.SetActive (false);
 
-		PauseUI = GameObject.Find ("PauseMenu");
+		PauseUI = GameObject.Find ("Pause Menu");
 		OptionsUI = GameObject.Find ("OptionsUI");
 		MainMenuUI = GameObject.Find ("MainMenuUI");
 

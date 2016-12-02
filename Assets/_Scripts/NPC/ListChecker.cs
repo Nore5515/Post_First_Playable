@@ -11,6 +11,8 @@ public class ListChecker : MonoBehaviour {
 	public Canvas looseSceen;
 	private expSystem spSystem;
 
+	public int pointValue = 1;
+
 	// Use this for initialization
 	void Start () {
 		buildinglister = GameObject.FindGameObjectWithTag("Blister").GetComponent<BuildingLister> ();

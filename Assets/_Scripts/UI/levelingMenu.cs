@@ -41,10 +41,6 @@ public class levelingMenu : MonoBehaviour {
 		attackSkillMenu = GameObject.Find ("UI_Levelling").transform.FindChild("AttackTree").gameObject;
 		agilitySkills = GameObject.Find ("Main Camera").GetComponent<agilitySkillMenu> ();
 
-		attackSkillMenu.SetActive (false);
-		tankSkills.tankMenu.SetActive (false);
-		agilitySkills.agilityMenu.SetActive (false);
-
 		xpSys = GetComponent<expSystem>();
 		tankSkills = GetComponent<tankSkillMenu>();
 		agilitySkills = GetComponent<agilitySkillMenu>();
@@ -61,6 +57,13 @@ public class levelingMenu : MonoBehaviour {
 		if (Input.GetKeyDown (KeyCode.L)) {
 			
 			spMenu = !spMenu;
+		}
+
+		else
+		{
+			attackSkillMenu.SetActive (false);
+			tankSkills.tankMenu.SetActive (false);
+			agilitySkills.agilityMenu.SetActive (false);
 		}
 		
 		if (spMenu) {
@@ -103,7 +106,7 @@ public class levelingMenu : MonoBehaviour {
 
 	public void Skill1()
 	{
-		if (xpSys.skillPoint > 0 && attack == 1)
+		if (xpSys.skillPoint >= 1 && attack == 1)
 		{
 			attack = 2;
 			Debug.Log(attack);
@@ -171,7 +174,7 @@ public class levelingMenu : MonoBehaviour {
 
 				xpSys.skillPoint -= 1;
 				Debug.Log(xpSys.skillPoint);
-				Debug.Log ("Attack = 5, damage increased!");
+				Debug.Log ("Attack = 5, damage increased to max!");
 			}
 		}
 	}

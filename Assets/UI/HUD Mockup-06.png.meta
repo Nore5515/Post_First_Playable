@@ -1,0 +1,1046 @@
+fileFormatVersion: 2
+guid: c44f8d12ff1cd464cb51baa98674f7f5
+timeCreated: 1480531656
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: HUD Mockup-06_0
+    21300002: HUD Mockup-06_1
+    21300004: HUD Mockup-06_2
+    21300006: HUD Mockup-06_3
+    21300008: HUD Mockup-06_4
+    21300010: HUD Mockup-06_5
+    21300012: HUD Mockup-06_6
+    21300014: HUD Mockup-06_7
+    21300016: HUD Mockup-06_8
+    21300018: HUD Mockup-06_9
+    21300020: HUD Mockup-06_10
+    21300022: HUD Mockup-06_11
+    21300024: HUD Mockup-06_12
+    21300026: HUD Mockup-06_13
+    21300028: HUD Mockup-06_14
+    21300030: HUD Mockup-06_15
+    21300032: HUD Mockup-06_16
+    21300034: HUD Mockup-06_17
+    21300036: HUD Mockup-06_18
+    21300038: HUD Mockup-06_19
+    21300040: HUD Mockup-06_20
+    21300042: HUD Mockup-06_21
+    21300044: HUD Mockup-06_22
+    21300046: HUD Mockup-06_23
+    21300048: HUD Mockup-06_24
+    21300050: HUD Mockup-06_25
+    21300052: HUD Mockup-06_26
+    21300054: HUD Mockup-06_27
+    21300056: HUD Mockup-06_28
+    21300058: HUD Mockup-06_29
+    21300060: HUD Mockup-06_30
+    21300062: HUD Mockup-06_31
+    21300064: HUD Mockup-06_32
+    21300066: HUD Mockup-06_33
+    21300068: HUD Mockup-06_34
+    21300070: HUD Mockup-06_35
+    21300072: HUD Mockup-06_36
+    21300074: HUD Mockup-06_37
+    21300076: HUD Mockup-06_38
+    21300078: HUD Mockup-06_39
+    21300080: HUD Mockup-06_40
+    21300082: HUD Mockup-06_41
+    21300084: HUD Mockup-06_42
+    21300086: HUD Mockup-06_43
+    21300088: HUD Mockup-06_44
+    21300090: HUD Mockup-06_45
+    21300092: HUD Mockup-06_46
+    21300094: HUD Mockup-06_47
+    21300096: HUD Mockup-06_48
+    21300098: HUD Mockup-06_49
+    21300100: HUD Mockup-06_50
+    21300102: HUD Mockup-06_51
+    21300104: HUD Mockup-06_52
+    21300106: HUD Mockup-06_53
+    21300108: HUD Mockup-06_54
+    21300110: HUD Mockup-06_55
+    21300112: HUD Mockup-06_56
+    21300114: HUD Mockup-06_57
+    21300116: HUD Mockup-06_58
+    21300118: HUD Mockup-06_59
+    21300120: HUD Mockup-06_60
+    21300122: HUD Mockup-06_61
+    21300124: HUD Mockup-06_62
+    21300126: HUD Mockup-06_63
+    21300128: HUD Mockup-06_64
+    21300130: HUD Mockup-06_65
+    21300132: HUD Mockup-06_66
+    21300134: HUD Mockup-06_67
+    21300136: HUD Mockup-06_68
+    21300138: HUD Mockup-06_69
+    21300140: HUD Mockup-06_70
+    21300142: HUD Mockup-06_71
+    21300144: HUD Mockup-06_72
+    21300146: HUD Mockup-06_73
+    21300148: HUD Mockup-06_74
+    21300150: HUD Mockup-06_75
+    21300152: HUD Mockup-06_76
+    21300154: HUD Mockup-06_77
+    21300156: HUD Mockup-06_78
+    21300158: HUD Mockup-06_79
+    21300160: HUD Mockup-06_80
+    21300162: HUD Mockup-06_81
+    21300164: HUD Mockup-06_82
+    21300166: HUD Mockup-06_83
+    21300168: HUD Mockup-06_84
+    21300170: HUD Mockup-06_85
+    21300172: HUD Mockup-06_86
+    21300174: HUD Mockup-06_87
+    21300176: HUD Mockup-06_88
+    21300178: HUD Mockup-06_89
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: HUD Mockup-06_0
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 4740
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_1
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 4740
+        width: 369
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_2
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 3812
+        width: 1804
+        height: 979
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_3
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 4671
+        width: 372
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_4
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 4527
+        width: 372
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_5
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 4558
+        width: 26
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_6
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 4558
+        width: 26
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_7
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 4420
+        width: 60
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_8
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 4406
+        width: 92
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_9
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 4420
+        width: 59
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_10
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 4442
+        width: 186
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_11
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 4441
+        width: 94
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_12
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 4319
+        width: 122
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_13
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 4278
+        width: 343
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_14
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 3617
+        width: 104
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_15
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 3617
+        width: 102
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_16
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 4202
+        width: 343
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_17
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 4134
+        width: 160
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_18
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 3383
+        width: 1044
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_19
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 2767
+        width: 1804
+        height: 979
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_20
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 3196
+        width: 1044
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_21
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 3011
+        width: 1044
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_22
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 2824
+        width: 1044
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_23
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 2644
+        width: 1044
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_24
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 1728
+        width: 1801
+        height: 979
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_25
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 2507
+        width: 301
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_26
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 2474
+        width: 585
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_27
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 2488
+        width: 109
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_28
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 2367
+        width: 412
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_29
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 2355
+        width: 587
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_30
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 2355
+        width: 109
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_31
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 2275
+        width: 412
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_32
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 2223
+        width: 585
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_33
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 2223
+        width: 109
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_34
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 2033
+        width: 412
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_35
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1938
+        width: 412
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_36
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1846
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_37
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1699
+        width: 412
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_38
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1604
+        width: 412
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_39
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 1403
+        width: 57
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_40
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 1387
+        width: 156
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_41
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 1387
+        width: 156
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_42
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 1432
+        width: 647
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_43
+      rect:
+        serializedVersion: 2
+        x: 2837
+        y: 1408
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_44
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 1244
+        width: 137
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_45
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 1273
+        width: 61
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_46
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 1273
+        width: 78
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_47
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 1273
+        width: 42
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_48
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 1273
+        width: 78
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_49
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 1273
+        width: 64
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_50
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 1273
+        width: 68
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_51
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 1372
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_52
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 1273
+        width: 59
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_53
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 1256
+        width: 215
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_54
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 1273
+        width: 62
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_55
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 1273
+        width: 59
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_56
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 1273
+        width: 42
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_57
+      rect:
+        serializedVersion: 2
+        x: 3058
+        y: 693
+        width: 82
+        height: 682
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_58
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 1282
+        width: 75
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_59
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 1268
+        width: 170
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_60
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 1268
+        width: 170
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_61
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 1207
+        width: 711
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_62
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 1204
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_63
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 1181
+        width: 81
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_64
+      rect:
+        serializedVersion: 2
+        x: 1578
+        y: 1166
+        width: 156
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_65
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 1166
+        width: 156
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_66
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 1055
+        width: 843
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_67
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 1069
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_68
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 1058
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_69
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 1048
+        width: 156
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_70
+      rect:
+        serializedVersion: 2
+        x: 1739
+        y: 1048
+        width: 156
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_71
+      rect:
+        serializedVersion: 2
+        x: 2158
+        y: 1036
+        width: 713
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_72
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 918
+        width: 843
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_73
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 930
+        width: 71
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_74
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 901
+        width: 157
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_75
+      rect:
+        serializedVersion: 2
+        x: 1758
+        y: 899
+        width: 156
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_76
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 780
+        width: 843
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_77
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 813
+        width: 52
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_78
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 795
+        width: 156
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_79
+      rect:
+        serializedVersion: 2
+        x: 1758
+        y: 793
+        width: 156
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_80
+      rect:
+        serializedVersion: 2
+        x: 2513
+        y: 840
+        width: 133
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_81
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 641
+        width: 843
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_82
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 698
+        width: 41
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_83
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 693
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_84
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 678
+        width: 156
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_85
+      rect:
+        serializedVersion: 2
+        x: 1761
+        y: 683
+        width: 156
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_86
+      rect:
+        serializedVersion: 2
+        x: 2518
+        y: 733
+        width: 135
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_87
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 84
+        width: 921
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_88
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 491
+        width: 1802
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HUD Mockup-06_89
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 257
+        width: 670
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
